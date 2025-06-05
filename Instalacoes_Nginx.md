@@ -16,14 +16,14 @@ sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring
 Baixa e adiciona a chave de assinatura GPG oficial do Nginx.
 
 ```bash
-curl [https://nginx.org/keys/nginx_signing.key](https://nginx.org/keys/nginx_signing.key) | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
+curl [https://nginx.org/keys/nginx_signing.key]| gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null
 ```
 
 ### 3. Configuração do Repositório Nginx Mainline
 
 Adiciona o repositório mainline oficial do Nginx à sua lista de fontes apt.
 ```bash
-echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] [http://nginx.org/packages/mainline/ubuntu](http://nginx.org/packages/mainline/ubuntu) `lsb_release -cs` nginx" | sudo tee /etc/apt/sources.list.d/nginx.list
+echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] [http://nginx.org/packages/mainline/ubuntu]`lsb_release -cs` nginx" | sudo tee /etc/apt/sources.list.d/nginx.list
 ```
 
 ### 4. Definição de Prioridade de Pacotes
