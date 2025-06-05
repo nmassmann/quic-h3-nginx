@@ -41,7 +41,7 @@ Aqui estão alguns recursos valiosos que serviram de base ou complementam o cont
 
 * **Conteúdo Audiovisual - Entendendo o protocolo QUIC (HTTP/3 e TLS 1.3)**:
     * [Gravação da SemanaCap 8 - Curso sobre QUIC](https://www.youtube.com/live/8hmnzwmaJDo)
-    *(Nesta video, você pode acompanhar o curso “Entendendo o protocolo #QUIC (HTTP/3 e TLS 1.3), o protocolo que está mudando a Internet!" que ocorreu na 8ª edição da Semana de Capacitação Online do NIC.br.)*
+    *(Neste video, você pode acompanhar o curso “Entendendo o protocolo #QUIC (HTTP/3 e TLS 1.3), o protocolo que está mudando a Internet!" que ocorreu na 8ª edição da Semana de Capacitação Online do NIC.br.)*
 
 ---
 
