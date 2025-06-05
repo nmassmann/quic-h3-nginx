@@ -54,8 +54,8 @@ Seu Nginx precisa de um certificado SSL (e sua chave privada) para habilitar con
 
     ```bash
     # Supondo que você esteja no diretório onde os arquivos certificate.crt e private.key estão
-    sudo cp certificate.crt /etc/nginx/ssl/nginx-selfsigned.crt
-    sudo cp private.key /etc/nginx/ssl/nginx-selfsigned.key
+    sudo cp certificate.crt /etc/nginx/ssl/certificate.crt
+    sudo cp private.key /etc/nginx/ssl/private.key
     ```
 
 3.  **Defina as permissões corretas:**
