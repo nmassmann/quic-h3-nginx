@@ -75,10 +75,4 @@ As principais modificações visam aprimorar a segurança e o desempenho da entr
         ```
         Procure pelo cabeçalho `alt-svc` na resposta ou por mensagens indicando o uso de QUIC.
 
----
-### Observações Finais
 
-* **Certificados Autoassinados:** Lembre-se que certificados autoassinados gerarão avisos de segurança nos navegadores. Para um ambiente de produção, é altamente recomendável usar certificados emitidos por uma Autoridade Certificadora (CA) confiável, como Let's Encrypt.
-* **Firewall:** Certifique-se de que as portas `80` (TCP), `443` (TCP) e `443` (UDP, para QUIC) estejam abertas no seu firewall.
-
-Este arquivo de configuração oferece uma base sólida para habilitar HTTP/3 no seu servidor Nginx, melhorando a velocidade e a segurança para os usuários de `oficina.uffs.edu.br`.
