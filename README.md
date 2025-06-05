@@ -43,6 +43,10 @@ Aqui estão alguns recursos valiosos que serviram de base ou complementam o cont
     * [Gravação da SemanaCap 8 - Curso sobre QUIC](https://www.youtube.com/live/8hmnzwmaJDo)
     *(Neste video, você pode acompanhar o curso “Entendendo o protocolo #QUIC (HTTP/3 e TLS 1.3), o protocolo que está mudando a Internet!" que ocorreu na 8ª edição da Semana de Capacitação Online do NIC.br.)*
 
+* **Servidor Alternativo com Suporte a HTTP/3:
+   * OpenLiteSpeed - HTTP/3 Support
+     *(O OpenLiteSpeed é um servidor web leve, gratuito e de alto desempenho que também oferece suporte nativo a HTTP/3 e QUIC. Pode ser uma alternativa interessante ao Nginx em diversos cenários.)* 
+
 ---
 
 ## 🛠️ Pré-requisitos
